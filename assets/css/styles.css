@@ -24,5 +24,15 @@
 body {
     font-family: var(--primary-font);
     padding-top: 57.15px; /* Pushes the top of the header below navbar */
-    background-color: black;
+    background-color: gray;
+}
+
+/* Navbar styling */
+
+#navbar {
+    background-color: var(--transparent-black);
+}
+
+#navbar .logo {
+    width: 200px;
 }
