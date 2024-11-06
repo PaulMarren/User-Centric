@@ -22,9 +22,10 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* Pushes the top of the header below navbar */
+    padding-top: 100px; /* Pushes the top of the header below navbar */
     background-color: gray;
 }
+
 
 /* Navbar styling */
 
@@ -50,7 +51,24 @@ body {
     color: white;
 }
 
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    color: var(--highlight-color);
+    padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+
 /* Carousel styling */
+
+.carousel-inner {
+    border-radius: 15px; /* Applies curved edges to carousel images */
+    overflow: hidden;    /* Ensures the edges stay rounded during transition */
+}
 
 .carousel-item img {
     height: 400px; 
