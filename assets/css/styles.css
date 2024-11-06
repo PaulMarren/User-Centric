@@ -17,3 +17,12 @@
     --transparent-black: rgba(0, 0, 0, 0.336);
      /* 50% transparent black */
 }
+
+
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px; /* Pushes the top of the header below navbar */
+    background-color: black;
+}
