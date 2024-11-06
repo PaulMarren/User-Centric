@@ -33,6 +33,10 @@ h3 {
 }
 
 
+.transparent-black-bg {
+    background-color: var(--transparent-black);
+}
+
 /* Navbar styling */
 
 #navbar {
