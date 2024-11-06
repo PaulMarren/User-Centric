@@ -1,0 +1,19 @@
+
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* CSS variables */
+:root {
+    --primary-font: "Oswald", sans-serif;
+    --secondary-font: "Oswald", cursive;
+    --primary-color: white;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
+    --transparent-black: rgba(0, 0, 0, 0.336);
+     /* 50% transparent black */
+}
