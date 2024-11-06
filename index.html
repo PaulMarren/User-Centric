@@ -51,10 +51,11 @@
         </div>
     </nav>
 
-    <!--Header with carousel-->
+    <!--Header-->
     <header id="header" class="container section">
-        <div class="row justify-content-center">
-            <div class="col-12 col-xl-6">
+        <div class="row">
+            <!--Carousel section-->
+            <div class="col-12 col-md-6">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -65,8 +66,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/carousel-image2.jpg" class="d-block w-100"
-                                alt="A rack of dumbells">
+                            <img src="assets/images/carousel-image2.jpg" class="d-block w-100" alt="A rack of dumbells">
                             <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
                                 <a href="booking.html" class="btn custom-button-filled ms-lg-3">JOIN NOW</a>
                             </div>
@@ -79,8 +79,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/carousel-image5.jpg" class="d-block w-100"
-                                alt="A rack of dumbells">
+                            <img src="assets/images/carousel-image5.jpg" class="d-block w-100" alt="A rack of dumbells">
                             <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
                                 <a href="booking.html" class="btn custom-button-filled ms-lg-3">JOIN NOW</a>
                             </div>
@@ -105,6 +104,31 @@
                     </button>
                 </div>
             </div>
+
+            <!-- Form Section -->
+            <div class="col-12 col-md-6">
+                <form action="success.html" method="GET" class="w-100 d-flex flex-column h-100">
+                    <div class="flex-grow-1">
+                        <h2 class="text-center">Sign up for special offers</h2>
+                        <p class="text-center">To receive all the latest offers and promotions, please add your details below:</p>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn custom-button-filled w-100">Sign Up</button>
+                </form>
+            </div>
+
         </div>
     </header>
 

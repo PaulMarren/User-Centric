@@ -26,6 +26,12 @@ body {
     background-color: gray;
 }
 
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
 
 /* Navbar styling */
 
@@ -65,10 +71,11 @@ body {
 
 /* Carousel styling */
 
-.carousel-inner {
-    border-radius: 15px; /* Applies curved edges to carousel images */
-    overflow: hidden;    /* Ensures the edges stay rounded during transition */
-}
+
+ .carousel-inner {
+    border-radius: 15px; 
+    overflow: hidden;  /* Applies curved edges to carousel images */
+} 
 
 .carousel-item img {
     height: 400px; 
