@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 100px; /* Pushes the top of the header below navbar */
+    padding-top: 60px; /* Pushes the top of the header below navbar */
     background-color: gray;
 }
 
@@ -32,6 +32,12 @@ h2,
 h3 {
     text-transform: uppercase;
 }
+
+.section {
+    padding-top: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+ }
 
 /* Transparent background */
 .transparent-black-bg {
@@ -94,19 +100,16 @@ h3 {
     width: 100%; 
 }
 
-/* Personal trainer carousel */
-.cards-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
 /* Gym features List styling */
 
 #gym-features {
     display: flex;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    text-align: center; /* Center-align text in the list items */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 10px;
+    overflow: hidden;
 }
 
 /* Center-align icons and text within each list item */
@@ -114,11 +117,15 @@ h3 {
     list-style: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 
 .gym-features-list li {
-    font-size: 2rem;
+    font-size: 4vw; /* Responsive font size */
     margin-bottom: 10px; /* Space between list items */
+    white-space: nowrap;
+    max-width: 90%;
+    display: flex;
 }
 
 #gym-features .gym-features-list li i {
@@ -127,6 +134,12 @@ h3 {
 }
 
 /*Media queries */
+
+@media (min-width: 768px) {
+    .gym-features-list li {
+        font-size: 1.2rem; /* Larger font for medium screens */
+    }
+}
 
 /* Screens up to 768px */
 @media (max-width: 767.9px) {
