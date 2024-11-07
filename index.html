@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top transparent-black-bg" data-bs-theme="dark">
         <div class="container">
@@ -52,12 +52,12 @@
     </nav>
 
     <!--Header-->
-    <header id="header" class="container section">
+    <header id="header" class="container section mb-4">
         <div class="row">
             <!--Carousel section-->
             <div class="col-12 col-md-6">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                <div id="auto-playing-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner curved-edges">
                         <div class="carousel-item active">
                             <img src="assets/images/carousel-image1.jpg" class="d-block w-100"
                                 alt="A man performing dumbell rows on the ground">
@@ -120,7 +120,7 @@
                 </div>
             </div>
 
-            <!-- Form Section -->
+            <!-- Offer Form Section -->
             <div class="col-12 col-md-6">
                 <form action="success.html" method="GET" class="w-100 d-flex flex-column h-100">
                     <div class="flex-grow-1">
@@ -147,6 +147,36 @@
 
         </div>
     </header>
+
+<!-- Main -->
+<main>
+    <div class="container section">
+        <div class="row">
+            <!-- Gym Features Section -->
+            <section id="gym-features" class="col-12 col-md-6 transparent-black-bg curved-edges mb-4">
+                <img src="assets/images/active-fitness-logo.png" alt="Active Fitness Logo" class="logo">
+                <ul class="gym-features-list">
+                    <li><i class="fas fa-laptop-code"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-arrow-circle-down"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-book-open"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-cloud"></i>Lorem ipsum</li>
+                </ul>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="col-12 col-md-6 transparent-black-bg curved-edges mb-4">
+                <img src="assets/images/active-fitness-logo.png" alt="Active Fitness Logo" class="logo">
+                <ul class="gym-features-list">
+                    <li><i class="fas fa-laptop-code"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-arrow-circle-down"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-book-open"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-cloud"></i>Lorem ipsum</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</main>
+
 
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

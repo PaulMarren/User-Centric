@@ -26,14 +26,22 @@ body {
     background-color: gray;
 }
 
+
 h1,
 h2,
 h3 {
     text-transform: uppercase;
 }
 
+/* Transparent background */
 .transparent-black-bg {
     background-color: var(--transparent-black);
+}
+
+/* Curved edges */
+.curved-edges {
+    border-radius: 15px; 
+    overflow: hidden;
 }
 
 /* Navbar styling */
@@ -42,7 +50,8 @@ h3 {
     background-color: var(--transparent-black);
 }
 
-#navbar .logo {
+/* Active fitness logo */
+.logo {
     width: 200px;
 }
 
@@ -74,14 +83,8 @@ h3 {
 
 /* Carousel styling */
 
-
- .carousel-inner {
-    border-radius: 15px; 
-    overflow: hidden;  /* Applies curved edges to carousel images */
-} 
-
 .carousel-item img {
-    height: 400px; 
+    height: 450px; 
     object-fit: cover; 
     width: 100%; 
 }
@@ -90,8 +93,8 @@ h3 {
 /*Media queries */
 
 /* Screens up to 768px */
-@media (max-width: 768px) {
-    #carouselExampleAutoplaying {
+@media (max-width: 767.9px) {
+    #auto-playing-carousel {
         margin-bottom: 1rem; 
     }
 }
