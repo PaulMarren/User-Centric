@@ -55,6 +55,10 @@ h3 {
     width: 200px;
 }
 
+.logo-bg {
+    width: 300px;
+}
+
 /* Buttons */
 
 .custom-button-filled {
@@ -83,12 +87,44 @@ h3 {
 
 /* Carousel styling */
 
+/* Image carousel */
 .carousel-item img {
     height: 450px; 
     object-fit: cover; 
     width: 100%; 
 }
 
+/* Personal trainer carousel */
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* Gym features List styling */
+
+#gym-features {
+    display: flex;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center-align text in the list items */
+}
+
+/* Center-align icons and text within each list item */
+.gym-features-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.gym-features-list li {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#gym-features .gym-features-list li i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 1.5rem; /* Increase icon size to match text */
+}
 
 /*Media queries */
 
