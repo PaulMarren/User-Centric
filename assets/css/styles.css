@@ -32,7 +32,6 @@ h3 {
     text-transform: uppercase;
 }
 
-
 .transparent-black-bg {
     background-color: var(--transparent-black);
 }
@@ -85,4 +84,14 @@ h3 {
     height: 400px; 
     object-fit: cover; 
     width: 100%; 
+}
+
+
+/*Media queries */
+
+/* Screens up to 768px */
+@media (max-width: 768px) {
+    #carouselExampleAutoplaying {
+        margin-bottom: 1rem; 
+    }
 }
