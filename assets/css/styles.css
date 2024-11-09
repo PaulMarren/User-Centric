@@ -102,24 +102,21 @@ h3 {
     justify-content: center;
     text-align: center;
     overflow: hidden;
+    padding:25px;
 }
 
-/* Center-align icons and text within each list item */
-.gym-features-list {
-    list-style: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-}
 
+/* List items styling */
 .gym-features-list li {
     font-size: 4vw; /* Responsive font size */
     margin-bottom: 10px; /* Space between list items */
-    white-space: nowrap;
+    white-space: nowrap; 
     max-width: 90%;
     display: flex;
+    list-style: none;
 }
 
+/* Icons styling */
 #gym-features .gym-features-list li i {
     margin-right: 8px; /* Space between icon and text */
     font-size: 1.5rem; /* Increase icon size to match text */
@@ -128,20 +125,23 @@ h3 {
 /*Media queries */
 
 /* Screens up to 768px */
-@media (max-width: 767.9px) {
-    #auto-playing-carousel {
-        margin-bottom: 1rem; 
-    }
+@media (max-width: 768px) {
 
     .marginclass {
         width: calc(100% - 24px);
         margin: 0 12px;
     }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
+/* Screens 768px and up*/
 @media (min-width: 768px) {
+    
     .gym-features-list li {
-        font-size: 1.2rem; /* Larger font for medium screens */
+        font-size: 1.2rem; 
     }
 
     .marginclass {
@@ -149,13 +149,59 @@ h3 {
         margin: 0 12px;
     }
 
-    #testimonials-carousel .carousel-item {
-        display: flex;
+    #testimonials .card-body {
+        min-height: 320px;
     }
 
-    /* Ensure each card takes one-third of the space */
-    #testimonials-carousel .carousel-item .col-md-4 {
-        flex: 1;
+    .card-footer {
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* Screens 1024px and up*/
+@media (min-width: 1024px) {
+
+    .gym-features-list li {
+        font-size: 1.5rem; 
+    }
+
+    #testimonials .card-body {
+        min-height: 375px;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .card-header,
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-footer {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* Screens 1400px and up*/
+@media (min-width: 1400px) {
+
+    #testimonials .card-body {
+        min-height: 375px;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-footer {
+        font-size: 1.5rem;
     }
 
 }
