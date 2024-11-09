@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 60px; /* Pushes the top of the header below navbar */
+    padding-top: 80px; /* Pushes the top of the header below navbar */
     background-color: gray;
 }
 
@@ -32,10 +32,6 @@ h2,
 h3 {
     text-transform: uppercase;
 }
-
-.section {
-    padding-top: 1rem;
- }
 
 /* Transparent background */
 .transparent-black-bg {
@@ -152,4 +148,14 @@ h3 {
         width: calc(50% - 24px);
         margin: 0 12px;
     }
+
+    #testimonials-carousel .carousel-item {
+        display: flex;
+    }
+
+    /* Ensure each card takes one-third of the space */
+    #testimonials-carousel .carousel-item .col-md-4 {
+        flex: 1;
+    }
+
 }
