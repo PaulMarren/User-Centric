@@ -158,6 +158,10 @@ h3 {
     p {
         font-size: 1rem;
     }
+
+    .footer-logo {
+      display: none;
+    }
 }
 
 /* Screens 768px and up*/
@@ -180,6 +184,10 @@ h3 {
         font-size: 0.9rem;
     }
     
+    .footer-logo {
+        display: block;
+      }
+
 }
 
 /* Screens 1024px and up*/
