@@ -56,7 +56,7 @@
         <div class="row">
             <!--Carousel section-->
             <div class="col-12 col-md-6 mb-4">
-                <div id="image-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="join-now-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner curved-edges">
                         <div class="carousel-item active">
                             <img src="assets/images/carousel-image1.jpg" class="d-block w-100"
@@ -107,12 +107,12 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#join-now-carousel"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-next" type="button" data-bs-target="#join-now-carousel"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -153,20 +153,6 @@
         <!-- Gym geatures and Personal trainers section-->
         <div class="container-fluid">
             <div class="row">
-                <!-- Gym Features Section -->
-                <section id="gym-features" class="col-12 col-md-6 transparent-black-bg mb-4 curved-edges marginclass">
-                    <ul class="gym-features-list">
-                        <h2>What we provide</h2>
-                        <li><i class="fa-solid fa-dumbbell"></i>Wide range and volume of equipment</li>
-                        <li><i class="fa-solid fa-dollar-sign"></i>Fantastic value for money</li>
-                        <li><i class="fa-solid fa-person-dress"></i>Ladies-only sections</li>
-                        <li><i class="fa-solid fa-graduation-cap"></i>Classes included</li>
-                        <li><i class="fa-solid fa-person"></i>Personal Trainers</li>    
-                        <li><i class="fa-solid fa-square-parking"></i>On-site parking</li>
-                        <li><i class="fa-solid fa-door-open"></i>24hr Access</li>
-                    </ul>
-                </section>
-
                 <!-- Personal trainers Section -->
                 <section id="personal-trainers" class="col-12 col-md-6 mb-4">
                     <div id="personal-trainers-carousel" class="carousel slide carousel-fade curved-edges"
@@ -248,6 +234,72 @@
                         </button>
                     </div>
                 </section>
+
+                <!-- Gym Features Section -->
+                <div class="col-12 col-md-6 mb-4">
+                    <div id="gym-features-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner curved-edges">
+                            <div class="carousel-item active">
+                                <img src="assets/images/open-24hours.jpg" class="d-block w-100"
+                                    alt="Open 24 hours sign">
+                                <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
+                                    <div class="transparent-black-bg p-3 text-center">
+                                        <h2 class="mb-3">Open 24 hours a day</h2>
+                                        <a href="booking.html" class="btn custom-button-filled w-100">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/fitness-class.jpg" class="d-block w-100" alt="A fitness class taking place">
+                                <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
+                                    <div class="transparent-black-bg p-3 text-center">
+                                        <h2 class="mb-3">Fitness classes</h2>
+                                        <a href="booking.html" class="btn custom-button-filled w-100">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/equipment.jpg" class="d-block w-100"
+                                    alt="Gym equipment">
+                                <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
+                                    <div class="transparent-black-bg p-3 text-center">
+                                        <h2 class="mb-3">Wide range of equipment</h2>
+                                        <a href="booking.html" class="btn custom-button-filled w-100">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/parking-lot.jpg" class="d-block w-100" alt="Parking area">
+                                <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
+                                    <div class="transparent-black-bg p-3 text-center">
+                                        <h2 class="mb-3">On-site parking</h2>
+                                        <a href="booking.html" class="btn custom-button-filled w-100">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/ladies-section.jpg" class="d-block w-100"
+                                    alt="Ladies only section">
+                                <div class="carousel-caption d-grid gap-2 col-6 mx-auto">
+                                    <div class="transparent-black-bg p-3 text-center">
+                                        <h2 class="mb-3">Ladies only sections</h2>
+                                        <a href="booking.html" class="btn custom-button-filled w-100">LEARN MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gym-features-carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gym-features-carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -312,31 +364,34 @@
         </section>
     </main>
 
-   <!-- Footer section -->
-<footer id="footer" class="mt-auto">
-    <div class="container section">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <img src="assets/images/footer-logo.png" alt="Active Fitness Logo" class="footer-logo mb-4">
-            </div>
-            <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
-                <div class="social-links my-4 d-flex align-items-center text-end">
-                    <h2 class="me-3 mb-0">Follow us on socials</h2>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
-                    <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)" rel="noopener">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
+    <!-- Footer section -->
+    <footer id="footer" class="mt-auto">
+        <div class="container section">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="assets/images/footer-logo.png" alt="Active Fitness Logo" class="footer-logo mb-4">
                 </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                    <div class="social-links my-4 d-flex align-items-center text-end">
+                        <h2 class="me-3 mb-0">Follow us on socials</h2>
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                            rel="noopener">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
             </div>
-            <hr>
         </div>
-    </div>
-</footer>
+    </footer>
 
 
 
