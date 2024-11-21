@@ -23,7 +23,7 @@
 body {
     font-family: var(--primary-font);
     padding-top: 80px; /* Pushes the top of the header below navbar */
-    background-color: gray;
+    background-color: #444343;
 }
 
 
@@ -31,7 +31,25 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
-   
+    color:white;
+}
+
+img {
+    height: 450px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;       /* Remove default padding */
+    margin: 0;        /* Remove default margin */
+    text-align: center; /* Center-align the text */
+    color:white;
+}
+
+ul li i {
+    color:green;
 }
 
 .section {
@@ -58,10 +76,17 @@ h3 {
 /* Active fitness logo */
 .logo {
     width: 200px;
+    height:auto;
 }
 
 .logo-bg {
     width: 300px;
+    height:auto;
+}
+
+/* Offer form */
+.offer-form  {
+    color:white;
 }
 
 /* Buttons */
@@ -90,15 +115,6 @@ h3 {
 }
 
 
-/* Carousel styling */
-
-/* Image carousel */
-.carousel-item img {
-    height: 450px; 
-    object-fit: cover; 
-    width: 100%; 
-}
-
 /* Gym features List styling */
 
 #gym-features {
@@ -119,7 +135,6 @@ h3 {
     white-space: nowrap; 
     max-width: 90%;
     display: flex;
-    list-style: none;
 }
 
 /* Icons styling */
