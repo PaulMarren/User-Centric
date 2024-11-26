@@ -44,7 +44,8 @@ ul {
     list-style: none; /* Remove bullet points */
     padding: 0;       /* Remove default padding */
     margin: 0;        /* Remove default margin */
-    text-align: center; /* Center-align the text */
+    text-align: left; 
+    white-space: nowrap;
     color:white;
 }
 
@@ -184,6 +185,15 @@ ul li i {
     .footer-logo {
       display: none;
     }
+
+    .overlay-container ul {
+        font-size: 0.8rem; /* Adjust the font size of the list items */
+    }
+
+    .overlay-container {
+        top: 30%; /* Overlay height position */
+    }
+
 }
 
 /* Screens 768px and up*/
@@ -212,6 +222,10 @@ ul li i {
 
     p {
         font-size: 1rem;
+    }
+
+    .overlay-container {
+        top: 40%; 
     }
 
 }
@@ -259,6 +273,10 @@ ul li i {
 
     .card-footer {
         font-size: 1.5rem;
+    }
+
+    .overlay-container ul {
+        font-size: 1.2rem; 
     }
 
 }

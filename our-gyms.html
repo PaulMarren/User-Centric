@@ -60,7 +60,7 @@
                     <div class="position-relative curved-edges">
                         <img src="assets/images/membership-1.jpg" class="img-fluid w-100"
                             alt="A man performing dumbbell rows on the ground">
-                        <div class="overlay-container position-absolute top-50 start-50 translate-middle text-center">
+                        <div class="overlay-container position-absolute start-50 translate-middle text-center">
                             <div class="transparent-black-bg p-3">
                                 <h2>STANDARD</h2>
                                 <ul>
@@ -81,7 +81,7 @@
                     <div class="position-relative curved-edges">
                         <img src="assets/images/membership-2.jpg" class="img-fluid w-100"
                             alt="A man performing dumbbell rows on the ground">
-                        <div class="overlay-container position-absolute top-50 start-50 translate-middle text-center">
+                        <div class="overlay-container position-absolute start-50 translate-middle text-center">
                             <div class="transparent-black-bg p-3 text-center">
                                 <H2>PLUS+</H2>
                                 <ul>
@@ -105,47 +105,47 @@
         <!-- Fitness classes section-->
         <section class="fitness-classes container-fluid curved-edges">
             <h1 class="text-center">Fitness Classes</h1>
-                <!-- Navbar for day selection -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="container-fluid justify-content-center">
+            <!-- Navbar for day selection -->
+            <nav class="navbar navbar-expand-lg transparent-black-bg" data-bs-theme="dark">
+                <div class="container-fluid justify-content-center">
                     <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active day-selector" href="#" data-day="monday">Monday</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link day-selector" href="#" data-day="tuesday">Tuesday</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link day-selector" href="#" data-day="wednesday">Wednesday</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link day-selector" href="#" data-day="thursday">Thursday</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link day-selector" href="#" data-day="friday">Friday</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link day-selector" href="#" data-day="saturday">Saturday</a>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link active day-selector" href="#" data-day="monday">Monday</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link day-selector" href="#" data-day="tuesday">Tuesday</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link day-selector" href="#" data-day="wednesday">Wednesday</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link day-selector" href="#" data-day="thursday">Thursday</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link day-selector" href="#" data-day="friday">Friday</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link day-selector" href="#" data-day="saturday">Saturday</a>
+                        </li>
                     </ul>
-                  </div>
-                </nav>
-            
-                <!-- Timetable -->
-                <div class="timetable">
-                  <table class="table table-bordered">
+                </div>
+            </nav>
+
+            <!-- Timetable -->
+            <div class="timetable">
+                <table class="table table-bordered">
                     <thead>
-                      <tr>
-                        <th>Time</th>
-                        <th>Class</th>
-                      </tr>
+                        <tr>
+                            <th>Time</th>
+                            <th>Class</th>
+                        </tr>
                     </thead>
                     <tbody id="timetable-body">
-                      <!-- Content will be populated dynamically -->
+                        <!-- Content will be populated dynamically -->
                     </tbody>
-                  </table>
-                </div>
-    
+                </table>
+            </div>
+
         </section>
     </main>
 
@@ -179,73 +179,112 @@
     </footer>
 
     <style>
-        .timetable { margin-top: 20px; }
-      </style>
+        .timetable {
+            margin-top: 20px;
+        }
+    </style>
 
-<script>
-    // Sample data for classes
-    const classes = {
-      monday: [
-        { time: "8:00 AM", class: "Yoga" },
-        { time: "10:00 AM", class: "Cardio Blast" },
-        { time: "6:00 PM", class: "Pilates" }
-      ],
-      tuesday: [
-        { time: "9:00 AM", class: "Spin Class" },
-        { time: "5:00 PM", class: "Zumba" },
-      ],
-      wednesday: [
-        { time: "8:30 AM", class: "Aerobics" },
-        { time: "7:00 PM", class: "Kickboxing" }
-      ],
-      thursday: [
-        { time: "10:30 AM", class: "Strength Training" },
-        { time: "6:30 PM", class: "Yoga" }
-      ],
-      friday: [
-        { time: "7:00 AM", class: "HIIT" },
-        { time: "4:00 PM", class: "Pilates" }
-      ],
-      saturday: [
-        { time: "8:00 AM", class: "Spin Class" },
-        { time: "10:00 AM", class: "Zumba" },
-        { time: "12:00 PM", class: "Strength Training" }
-      ]
-    };
+    <script>
+        // Sample data for classes
+        const classes = {
+            monday: [{
+                    time: "8:00 AM",
+                    class: "Yoga"
+                },
+                {
+                    time: "10:00 AM",
+                    class: "Cardio Blast"
+                },
+                {
+                    time: "6:00 PM",
+                    class: "Pilates"
+                }
+            ],
+            tuesday: [{
+                    time: "9:00 AM",
+                    class: "Spin Class"
+                },
+                {
+                    time: "5:00 PM",
+                    class: "Zumba"
+                },
+            ],
+            wednesday: [{
+                    time: "8:30 AM",
+                    class: "Aerobics"
+                },
+                {
+                    time: "7:00 PM",
+                    class: "Kickboxing"
+                }
+            ],
+            thursday: [{
+                    time: "10:30 AM",
+                    class: "Strength Training"
+                },
+                {
+                    time: "6:30 PM",
+                    class: "Yoga"
+                }
+            ],
+            friday: [{
+                    time: "7:00 AM",
+                    class: "HIIT"
+                },
+                {
+                    time: "4:00 PM",
+                    class: "Pilates"
+                }
+            ],
+            saturday: [{
+                    time: "8:00 AM",
+                    class: "Spin Class"
+                },
+                {
+                    time: "10:00 AM",
+                    class: "Zumba"
+                },
+                {
+                    time: "12:00 PM",
+                    class: "Strength Training"
+                }
+            ]
+        };
 
-    // Function to display timetable for the selected day
-    function showTimetable(day) {
-      const timetableBody = document.getElementById("timetable-body");
-      timetableBody.innerHTML = ""; // Clear previous timetable
-      if (classes[day]) {
-        classes[day].forEach(entry => {
-  const row = `<tr>
+        // Function to display timetable for the selected day
+        function showTimetable(day) {
+            const timetableBody = document.getElementById("timetable-body");
+            timetableBody.innerHTML = ""; // Clear previous timetable
+            if (classes[day]) {
+                classes[day].forEach(entry => {
+                    const row = `<tr>
                 <td class="text-start" style="width: 10%;">${entry.time}</td>
                 <td class="text-start" style="width: 90%;">${entry.class}</td>
               </tr>`;
-  timetableBody.insertAdjacentHTML("beforeend", row);
-});
+                    timetableBody.insertAdjacentHTML("beforeend", row);
+                });
 
-      }
-    }
+            }
+        }
 
-    // Event listeners for day selection
-    document.querySelectorAll(".day-selector").forEach(link => {
-      link.addEventListener("click", event => {
-        event.preventDefault();
-        // Remove active class from all links and add it to the clicked one
-        document.querySelectorAll(".day-selector").forEach(link => link.classList.remove("active"));
-        event.target.classList.add("active");
+        // Event listeners for day selection
+        document.querySelectorAll(".day-selector").forEach(link => {
+            link.addEventListener("click", event => {
+                event.preventDefault();
+                // Remove active class from all links and add it to the clicked one
+                document.querySelectorAll(".day-selector").forEach(link => link.classList.remove(
+                    "active"));
+                event.target.classList.add("active");
 
-        // Show the timetable for the selected day
-        const selectedDay = event.target.getAttribute("data-day");
-        showTimetable(selectedDay);
-      });
-    });
+                // Show the timetable for the selected day
+                const selectedDay = event.target.getAttribute("data-day");
+                showTimetable(selectedDay);
+            });
+        });
 
-    // Show Monday's timetable by default
-    document.addEventListener("DOMContentLoaded", () => showTimetable("monday"));
-  </script>
+        // Show Monday's timetable by default
+        document.addEventListener("DOMContentLoaded", () => showTimetable("monday"));
+    </script>
 
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
