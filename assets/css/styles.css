@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 80px; /* Pushes the top of the header below navbar */
+    padding-top: 20px; /* Pushes the top of the header below navbar */
     background-color: #444343;
 }
 
@@ -56,7 +56,7 @@ ul li i {
 }
 
 .section {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 /* Transparent background */
