@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     imageElement.alt = 'Cardio Equipment';
                     break;
                 case '#weight-section':
-                    imageElement.src = 'assets/images/weight.jpg';
+                    imageElement.src = 'assets/images/weight-room.jpg';
                     imageElement.alt = 'Weight Equipment';
                     break;
                 case '#functional-section':
-                    imageElement.src = 'assets/images/functional.jpg';
+                    imageElement.src = 'assets/images/functional-equipment.jpg';
                     imageElement.alt = 'Functional Equipment';
                     break;
                 default:
-                    imageElement.src = 'assets/images/default.jpg';
-                    imageElement.alt = 'Default Equipment';
+                    imageElement.src = 'assets/images/cardio.jpg';
+                    imageElement.alt = 'Cardio Equipment';
             }
         });
     });
