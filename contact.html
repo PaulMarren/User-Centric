@@ -53,10 +53,45 @@
 
     <main>
         <!-- Contact section -->
-        <section id="contact" class="container-fluid section">
-            <h1 class="text-center mb-4">Contact Us</h1>
-            <div class="row">
+
+        <section id="contact-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h1 class="text-center mb-4">Contact Us</h1>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="enquiry-type" class="form-label">Type of Enquiry</label>
+                                <select id="enquiry-type" class="form-select" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="general">General enquiry</option>
+                                    <option value="cancellation">Cancellation</option>
+                                    <option value="payment">Payment enquiry</option>
+                                    <option value="access">Gym access</option>
+                                    <option value="membership">Membership enquiry</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
     
+                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
     
