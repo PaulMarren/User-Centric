@@ -7,6 +7,7 @@
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Oswald", cursive;
     --primary-color: white;
+    --dark-theme-font-color:#c7d0d0;
     /* dark brown */
     --secondary-color: #aa9581;
     /* light brown */
@@ -90,6 +91,14 @@ ul li i {
 /* Offer form */
 .offer-form  {
     color:white;
+}
+
+label {
+    color:white
+}
+
+.lead {
+    color:var(--dark-theme-font-color);
 }
 
 /* Buttons */
