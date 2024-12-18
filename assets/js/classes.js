@@ -1,5 +1,4 @@
 
-// Sample data for classes
 const classes = {
     monday: [{
             time: "8:00 AM",

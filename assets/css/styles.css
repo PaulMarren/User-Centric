@@ -8,10 +8,8 @@
     --secondary-font: "Oswald", cursive;
     --primary-color: white;
     --dark-theme-font-color:#c7d0d0;
-    /* dark brown */
-    --secondary-color: #aa9581;
-    /* light brown */
-    --button-blue: #416a8e; /* blue */
+    --button-blue: #416a8e; 
+    /* blue */
     --highlight-color-light: #7a9fc2;
     /* light blue */
     --transparent-black: rgba(0, 0, 0, 0.514);
