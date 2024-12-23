@@ -105,12 +105,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - W3C CSS Validator
       - The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
          ![CSS validation image](assets/images/readme-images/css-validation.jpg)
+
+
 ### Lighthouse Testing         
 Lighthouse testing was used to determine the site's performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.
 
 **Homepage**
    -   ![Desktop home page lighthouse result](assets/images/readme-images/desktop-homepage-lighthouse.jpg)
    -   ![Mobile home page lighthouse result](assets/images/readme-images/mobile-homepage-lighthouse.jpg)
+
+**Our Gyms Page**
+   -   ![Desktop Our Gyms page lighthouse result](assets/images/readme-images/desktop-our-gyms-page-lighthouse.jpg)
+   -   ![Mobile Our Gyms page lighthouse result](assets/images/readme-images/mobile-ourgyms-page-lighthouse.jpg)
+
+**Contact Page**
+   -   ![Desktop contact page lighthouse result](assets/images/readme-images/desktop-contact-page-lighthouse.jpg)
+   -   ![Mobile contact page lighthouse result](assets/images/readme-images/mobile-contact-page-lighthouse.jpg)
+
+
 
 ### Testing User Stories from User Experience (UX) Section
  -  #### First Time Visitor Goals
