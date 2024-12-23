@@ -35,7 +35,7 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
     - [Techsini](#techsini)
     - [HTML validator](#html-validator)
     - [CSS validator](#css-validator)
-    - [JavaScript validator](#javascript-validator)
+    - [Image Resizer](#image-resizer)
     - [Pixabay](#pixabay)
 
 ## UX
@@ -68,7 +68,6 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 ### Wireframes
 #### Home Page 
    -   ![Desktop home page desktop wireframe](assets/images/readme-images/desktop-home-page.png)
-
 #### Our Gyms Page
    -   ![Our gyms page desktop wireframe](assets/images/readme-images/desktop-our-gyms-page.png)
 #### Contact Us Page 
@@ -108,6 +107,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
          ![CSS validation image](assets/images/readme-images/css-validation.jpg)
 ### Lighthouse Testing         
 Lighthouse testing was used to determine the site's performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.
+
+**Homepage**
+   -   ![Desktop home page lighthouse result](assets/images/readme-images/desktop-homepage-lighthouse.jpg)
+   -   ![Mobile home page lighthouse result](assets/images/readme-images/mobile-homepage-lighthouse.jpg)
 
 ### Testing User Stories from User Experience (UX) Section
  -  #### First Time Visitor Goals
@@ -168,8 +171,9 @@ The project was deployed to GitHub Pages using the following steps...
 ### [CSS validator](https://jigsaw.w3.org/css-validator/)
 * Used to verify CSS code.
 
-### [JavaScript validator](https://jshint.com/)
-* Used to verify JavaScript code.
+### [Image Resizer](https://imageresizer.com/)
+* Used to resize images.
+
 
 ### [Pixabay](https://pixabay.com/)
 * [Personal Trainer Paul photo](https://pixabay.com/photos/olympic-rings-rings-workout-2141125/)
