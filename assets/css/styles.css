@@ -149,6 +149,11 @@ label {
     color: white;
 }
 
+/* Cards */
+.card-title {
+    font-weight: bold;
+}
+
 /*Media queries */
 
 /* Screens up to 768px */
