@@ -67,11 +67,14 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 
 ### Wireframes
 #### Home Page 
-   -   ![Desktop home page desktop wireframe](assets/images/readme-images/desktop-home-page.png)
+* [View Desktop Wireframe](assets/images/readme-images/desktop-home-page.png)
+* [View Mobile Wireframe](assets/images/readme-images/mobile-homepage.png)
 #### Our Gyms Page
-   -   ![Our gyms page desktop wireframe](assets/images/readme-images/desktop-our-gyms-page.png)
+* [View Desktop Wireframe](assets/images/readme-images/desktop-our-gyms-page.png)
+* [View Mobile Wireframe](assets/images/readme-images/mobile-our-gyms-page.png)
 #### Contact Us Page 
-   -   ![Contact page desktop wireframe](assets/images/readme-images/desktop-contact-page.png)
+* [View Desktop Wireframe](assets/images/readme-images/desktop-contact-page.png)
+* [View Mobile Wireframe](assets/images/readme-images/mobile-contact-page.png)
 
 ## Technologies used
 ### Languages used
