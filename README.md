@@ -26,6 +26,9 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
     - [Lighthouse Testing](#lighthouse-testing)
+    - [Bugs](#bugs)
+    - [Unfixed bugs](#unfixed-bugs)
+    - [Fixed bugs](#fixed-bugs)
     - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -50,7 +53,7 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
    1. As a First Time Visitor, I want to understand the gym's facilities, equipment, and services to determine if it suits my fitness goals.
    2. As a First Time Visitor, I want to learn about membership options and pricing to decide if it fits my budget.
    3. As a First Time Visitor, I want to see testimonials or success stories to build trust in the gym's credibility.
-   4. As a First Time Visitor, I want to find the gym's location and hours of operation to see if it's convenient for me.
+   4. As a First Time Visitor, I want to find the hours of operation to see if it's convenient for me.
 
 #### Returning Visitor Goals
 
@@ -125,6 +128,14 @@ Lighthouse testing was used to determine the site's performance, accessibility, 
    -   ![Desktop contact page lighthouse result](assets/images/readme-images/desktop-contact-page-lighthouse.jpg)
    -   ![Mobile contact page lighthouse result](assets/images/readme-images/mobile-contact-page-lighthouse.jpg)
 
+### Bugs
+### Unfixed bugs
+On the Home page i failed to get higher than a 91 SEO score on the lighthouse result. When linking to sections on Our Gyms page from the Home page navigation bar, lighthouse is asking for more descriptive link text but i can't seem to achieve this.
+
+This only seems to occur when linking to sections on another page using "#".
+
+### Fixed bugs
+I was getting a poor performance score on my Home page and Our gyms page on mobiles. This was massively improved by creating smaller versions of my images and only using them for mobile screens.
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -137,8 +148,8 @@ Lighthouse testing was used to determine the site's performance, accessibility, 
           1. The user can view the membership options and prices on the Our Gyms page.
     3. As a First Time Visitor, I want to see testimonials or success stories to build trust in the gym's credibility.
           1. The user can view testimonials submitted by our members on the Home page.
-    4. As a First Time Visitor, I want to find the gym's location and hours of operation to see if it's convenient for me.
-          1. The user can view the gyms location and hours of operation at the footer of any page. 
+    4. As a First Time Visitor, I want to find the hours of operation to see if it's convenient for me.
+          1. The user can view hours of operation at the footer of any page. 
 
 - #### Returning Visitor Goals
    1. As a Returning Visitor, I want to check the class schedule to plan my workouts.
