@@ -22,6 +22,14 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
   - [Features](#features)
     - [Navigation menu](#navigation-menu)
     - [Footer](#footer)
+    - [Carousels](#carousels)
+    - [Testimonials](#testimonials)
+    - [Special offers form](#special-offers-form)
+    - [Contact us form](#contact-us-form)
+    - [Membership options](#membership-options)
+    - [Fitness classes table](#fitness-classes-table)
+    - [Gym equipment accordion](#gym-equipment-accordion)
+    - [Success pages](#success-pages)
   - [Technologies used](#technologies-used)
     - [Languages used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -90,7 +98,52 @@ The navigation menu was designed to help users navigate through the website. The
 The footer contains social media links to Facebook, X, and Instagram and also the opening times of the gym. The links use noopener to prevent malicious activities.
 ![Footer image](assets/images/readme-images/footer.jpg)
 
+### Carousels
+The Home page contains multiple carousels that play as the user browses the website. They showcase features of the gym, give some insight into the personal trainers and some also contain buttons to encourage the user to find out more about the gym or join the gym.
 
+![Join now carousel image](assets/images/readme-images/join-now-carousel.gif)
+![Learn more carousel image](assets/images/readme-images/learn-more-carousel.gif)
+![Personal trainers carousel image](assets/images/readme-images/personal-trainers-carousel.gif)
+
+### Testimonials
+The Home page contains testimonials from gym members to build trust and credibility.
+![Testmonials image](assets/images/readme-images/testimonials.jpg)
+
+### Special offers form
+The Home page contains a form to allow users to sign-up for special offers. This gives the user an incentive to hand over their email address which can be used later to display offers to the user and increases the chances of having them as a customer.
+
+![Speaicl offers form image](assets/images/readme-images/special-offers-form.jpg)
+
+### Contact us form
+The Contact page contains a form to allow users to send enquiries. It contains a combo box to allow the user to select which type of enquiry they need. The contact form is a good way of providing customer support.
+
+![Contact us image](assets/images/readme-images/contact-us.jpg)
+
+### Membership options 
+The Our Gyms page contains membership options that stand out to the user. They display what the user will get and also the price of the membership. They contain a "Join Now" button so the user can easily continue with signing up for their membership.
+
+![Memberships image](assets/images/readme-images/memberships.jpg)
+
+### Fitness classes table
+The Our Gyms page contains an interactive table that displays the current fitness classes along with their times. The user can select days of the week to see the fitness classes available on that day.
+
+![Fitness classes image](assets/images/readme-images/fitness-classes.gif)
+
+### Gym equipment accordion
+The Our Gyms page contains an accordion that displays the equipment that the gym has to offer. The user can select the type of equipment to find out more information.
+
+![Gym equipment image](assets/images/readme-images/gym-equipment.gif)
+
+### Success pages
+A join success page was added to inform the user that they joined the gym successfully.
+
+![Join success image](assets/images/readme-images/join-success.jpg)
+
+<br>
+
+A contact success page was added to inform the user that their enquiry was received successfully.
+
+![Contact success image](assets/images/readme-images/contact-success.jpg)
 
 ## Technologies used
 ### Languages used
