@@ -9,7 +9,6 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 - [Active Fitness](#active-fitness)
 - [Table of Contents](#table-of-contents)
   - [UX](#ux)
-    - [Features](#features)
     - [User stories](#user-stories)
       - [First Time Visitor Goals](#first-time-visitor-goals)
       - [Returning Visitor Goals](#returning-visitor-goals)
@@ -20,6 +19,9 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
       - [Home Page](#home-page)
       - [Our Gyms Page](#our-gyms-page)
       - [Contact Us Page](#contact-us-page)
+  - [Features](#features)
+    - [Navigation menu](#navigation-menu)
+    - [Footer](#footer)
   - [Technologies used](#technologies-used)
     - [Languages used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -42,10 +44,6 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
     - [Pixabay](#pixabay)
 
 ## UX
-
-### Features
-- Responsive on all device sizes
-- Interactive elements
 
 ### User stories
 #### First Time Visitor Goals
@@ -78,6 +76,21 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 #### Contact Us Page 
 * [View Desktop Wireframe](assets/images/readme-images/desktop-contact-page.png)
 * [View Mobile Wireframe](assets/images/readme-images/mobile-contact-page.png)
+
+## Features
+### Navigation menu
+The navigation menu was designed to help users navigate through the website. The current page will be highlighted to let the user know which page they are on. There is also a drop down menu for mobile users.
+![Desktop navbar](assets/images/readme-images/nav-desktop.jpg)
+
+<br>
+
+![Mobile navbar](assets/images/readme-images/nav-mobile.jpg)
+
+### Footer
+The footer contains social media links to Facebook, X, and Instagram and also the opening times of the gym. The links use noopener to prevent malicious activities.
+![Footer image](assets/images/readme-images/footer.jpg)
+
+
 
 ## Technologies used
 ### Languages used
