@@ -88,6 +88,8 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 ## Features
 ### Navigation menu
 The navigation menu was designed to help users navigate through the website. The current page will be highlighted to let the user know which page they are on. There is also a drop down menu for mobile users.
+<br>
+
 ![Desktop navbar](assets/images/readme-images/nav-desktop.jpg)
 
 <br>
