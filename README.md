@@ -56,7 +56,7 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 ### User stories
 #### First Time Visitor Goals
 
-   1. As a First Time Visitor, I want to understand the gym's facilities, equipment, and services to determine if it suits my fitness goals.
+   1. As a First Time Visitor, I want to understand the gym's equipment, classes and personal trainers to determine if it suits my fitness goals.
    2. As a First Time Visitor, I want to learn about membership options and pricing to decide if it fits my budget.
    3. As a First Time Visitor, I want to see testimonials or success stories to build trust in the gym's credibility.
    4. As a First Time Visitor, I want to find the hours of operation to see if it's convenient for me.
@@ -65,7 +65,7 @@ The live page can be viewed here: [Link to Active Fitness](https://paulmarren.gi
 
    1. As a Returning Visitor, I want to check the class schedule to plan my workouts.
    2. As a Returning Visitor, I want to find out about special promotions or discounts for existing members.
-   3. As a Returning Visitor, I want to check for new classes, added facilities or equipment.
+   3. As a Returning Visitor, I want to check for new classes or equipment.
 
 
 ### Design
@@ -114,7 +114,7 @@ The Home page contains testimonials from gym members to build trust and credibil
 ### Special offers form
 The Home page contains a form to allow users to sign-up for special offers. This gives the user an incentive to hand over their email address which can be used later to display offers to the user and increases the chances of having them as a customer.
 
-![Speaicl offers form image](assets/images/readme-images/special-offers-form.jpg)
+![Special offers form image](assets/images/readme-images/special-offers-form.jpg)
 
 ### Contact us form
 The Contact page contains a form to allow users to send enquiries. It contains a combo box to allow the user to select which type of enquiry they need. The contact form is a good way of providing customer support.
@@ -211,24 +211,33 @@ I was getting a poor performance score on my Home page and Our gyms page on mobi
 
 ### Testing User Stories from User Experience (UX) Section
  -  #### First Time Visitor Goals
-    1. As a First Time Visitor, I want to understand the gym's equipment, classes and personal trainers to determine if it suits my fitness goals.
+    1. **As a First Time Visitor, I want to understand the gym's equipment, classes and personal trainers to determine if it suits my fitness goals.**
          1. The user can view the different types of equipment via the Our Gyms page.
-         2. The user can view the current available classes via the classes timetable on the Our Gyms page.
-         3. The user can view our personal trainers along with their experience via the carousel on the Home page.
-    2. As a First Time Visitor, I want to learn about membership options and pricing to decide if it fits my budget.
+            ![Gym equipment image](assets/images/readme-images/gym-equipment.gif)
+         1. The user can view the current available classes via the classes timetable on the Our Gyms page.
+            ![Fitness classes image](assets/images/readme-images/fitness-classes.gif)
+         2. The user can view our personal trainers along with their experience via the carousel on the Home page.
+            ![Personal trainers carousel image](assets/images/readme-images/personal-trainers-carousel.gif)
+    2. **As a First Time Visitor, I want to learn about membership options and pricing to decide if it fits my budget.**
           1. The user can view the membership options and prices on the Our Gyms page.
-    3. As a First Time Visitor, I want to see testimonials or success stories to build trust in the gym's credibility.
+            ![Memberships image](assets/images/readme-images/memberships.jpg)
+    3. **As a First Time Visitor, I want to see testimonials or success stories to build trust in the gym's credibility.**
           1. The user can view testimonials submitted by our members on the Home page.
-    4. As a First Time Visitor, I want to find the hours of operation to see if it's convenient for me.
+            ![Testmonials image](assets/images/readme-images/testimonials.jpg)
+    4. **As a First Time Visitor, I want to find the hours of operation to see if it's convenient for me.**
           1. The user can view hours of operation at the footer of any page. 
+            ![Footer image](assets/images/readme-images/footer.jpg)
 
 - #### Returning Visitor Goals
-   1. As a Returning Visitor, I want to check the class schedule to plan my workouts.
+   1. **As a Returning Visitor, I want to check the class schedule to plan my workouts.**
       1. The user can view the classes timetable via the Our Gyms page.
-   2. As a Returning Visitor, I want to find out about special promotions or discounts for existing members.
+         ![Fitness classes image](assets/images/readme-images/fitness-classes.gif)
+   2. **As a Returning Visitor, I want to find out about special promotions or discounts for existing members.**
       1. The user can sign-up for special offers by completing the form on the Home page.
-   3. As a Returning Visitor, I want to check for new classes, added facilities or equipment.
-      1. The user can view the classes, facilities and equipment via the Our Gyms page.
+         ![Special offers form image](assets/images/readme-images/special-offers-form.jpg)
+   3. **As a Returning Visitor, I want to check for new classes or equipment.**
+      1. The user can view the classes and equipment via the Our Gyms page.
+         ![Classes and equipment image](assets/images/readme-images/classes-equipment.jpg)
   
 
 ## Deployment
