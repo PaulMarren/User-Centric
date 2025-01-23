@@ -173,12 +173,15 @@ A contact success page was added to inform the user that their enquiry was recei
 ## Testing
 ### Validator Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-  - W3C Markup Validator 
-      - All pages were checked for their HTML structure by the W3C Markup Validation Service. No document showed any errors.
-         ![HTML validation image](assets/images/readme-images/html-validation.jpg)
-  - W3C CSS Validator
-      - The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
-         ![CSS validation image](assets/images/readme-images/css-validation.jpg)
+- All pages were checked for their HTML structure by the W3C Markup Validation Service. No document showed any errors.
+  * [Index page validation results](assets/images/readme-images/index-html-validation.jpg)
+  * [Our Gyms page validation results](assets/images/readme-images/our-gyms-page-validation.jpg)
+  * [Contact validation results](assets/images/readme-images/contact-page-validation.jpg)
+  * [Contact form success page validation results](assets/images/readme-images/contact-success-page-validation.jpg)
+  * [Join success validation results](assets/images/readme-images/contact-success-page-validation.jpg)
+  * [Offer form success validation results](assets/images/readme-images/offer-success-page-validation.jpg)
+- The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
+   ![CSS validation image](assets/images/readme-images/css-validation.jpg)
 
 
 ### Lighthouse Testing         
